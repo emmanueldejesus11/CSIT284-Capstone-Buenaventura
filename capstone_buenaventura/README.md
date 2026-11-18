@@ -1,17 +1,31 @@
-# capstone_buenaventura
+# School Announcement Board
 
-A new Flutter project.
+**Name:** BUENAVENTURA, EMMANUEL
+**Workstation Number:** 04
 
-## Getting Started
+## Project Description
 
-This project is a starting point for a Flutter application.
+School Announcement Board is a Flutter mobile app that lets students view
+school announcements in one place. An admin can post new text-only
+announcements through a simple form. Later versions will use Firebase for
+storage and push notifications for new posts.
 
-A few resources to get you started if this is your first Flutter project:
+## Features (Week 1)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- List of announcements (dummy data)
+- Admin screen with a form to post a new announcement
+- Navigation between Home and Admin screens
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+lib/
+├── main.dart
+├── models/      (Announcement model)
+├── data/        (dummy data)
+├── screens/     (home_screen, admin_screen)
+└── widgets/     (announcement_card)
+
+## How to Run
+
+flutter pub get
+flutter run
